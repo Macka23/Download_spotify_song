@@ -22,4 +22,3 @@ Copy these informations in your secrets.py file.
 For your output_path, set whatever path you want, you can do like me : "C:/Users/User/Downloads"
 
 Change User by your user.
-
