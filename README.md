@@ -1,9 +1,9 @@
 # Download spotify song 🎵
 
-# Prerequies
+## Prerequies
 pip install pytube
 
-pip install requests
+<pip install requests>
 
 Program downloading spotify song using spotify API and PyTube
 
