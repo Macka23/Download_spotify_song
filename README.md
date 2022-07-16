@@ -2,6 +2,7 @@
 
 ## Prerequisites
 **pip install pytube**
+
 **pip install requests**
 
 ## Using spotify API 
