@@ -7,7 +7,7 @@
 
 ## Using spotify API 
 
-You need to fill the informations in the secrets.py file:
+You need to fill the informations in the `secrets.py` file:
 
 You find your clientId and clientSecret by connecting to https://developer.spotify.com/dashboard/ and by creating an app
 
