@@ -1,7 +1,7 @@
 # Download spotify song 🎵
 
 ## Prerequisites
-**pip install pytube
+**pip install pytube**
 
 **pip install requests**
 
