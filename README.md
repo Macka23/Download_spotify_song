@@ -2,10 +2,9 @@
 
 ## Prerequisites
 **pip install pytube**
-
 **pip install requests**
 
-Program downloading spotify song using spotify API and PyTube
+## Using spotify API 
 
 You need to fill the informations in the secrets.py file:
 
