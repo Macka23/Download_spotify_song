@@ -1,6 +1,6 @@
-# Install_spotify_song 🎵
+# Download spotify song 🎵
 
-Program dowloading spotify song using spotify API and PyTube
+Program downloading spotify song using spotify API and PyTube
 
 You need to fill the informations in the secrets.py file:
 
