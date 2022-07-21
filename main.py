@@ -3,6 +3,7 @@ import requests
 from secrets import *
 import base64
 from pytube import YouTube
+import os
 
 
 def getID(connector_to_process):
@@ -75,7 +76,12 @@ url_yt = "https://www.youtube.com/watch?v=" + key
 yt = YouTube(url_yt)
 
 stream = yt.streams.get_by_itag(251)
-stream.download(output_path)
+
+mp4_file = stream.download(output_path)
+base, ext = os.path.splitext(mp4_file)
+new_file = base + '.mp3'
+os.rename(mp4_file, new_file)
+
 print(yt.title)
 print(url_yt)
 print("Downloaded successfully.")
